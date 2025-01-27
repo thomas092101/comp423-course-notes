@@ -1,6 +1,7 @@
 # **Setting up Development Container for Rust**
 
 * Primary author : [Thomas Roche](https://thomas092101)
+* Reviewer: [David Ona](https://github.com/david-ona)
 
 ## **Requirements**
 
@@ -42,4 +43,3 @@
 </span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="https://comp423-25s.github.io/resources/MkDocs/tutorial/#__codelineno-5-10"></a><span class="w">  </span><span class="nt">"postCreateCommand"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rustup update && rustc --version"</span>
 </span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11" href="https://comp423-25s.github.io/resources/MkDocs/tutorial/#__codelineno-5-11"></a><span class="p">}</span>
 </span></code></pre></div>
-
