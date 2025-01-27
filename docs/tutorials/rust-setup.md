@@ -31,12 +31,12 @@ git init
     + Finally, add and push your local commits to GitHub.  
     ```git push --set-upstream origin main```
 
-### **Create and Configure Dev Container**  
+### **Create, Configure, and Build your Dev Container**  
 
 + First, we will want to create a ```.devcontainer``` directory in the root of your project.  Inside this directory we will add a new file ```.devcontainer/devcontainer.json```  
 
     ```  
-    mkdir devcontainer  
+    mkdir .devcontainer  
     git add devcontainer.json  
     ```
 
@@ -60,12 +60,12 @@ The ```devcontainer.json``` file defines the configurations for the development 
       "extensions": ["rust-lang.rust-analyzer"]
     }
   },
-  "postCreateCommand": ""
+  "postCreateCommand": "rustc --version"
 }
 ```
 
 
-### Opening Dev Container
++ **Opening your Dev Container**
 
 These next few steps need to be completed entirely in your Dev container.  To access your dev container, on VSCode search for *"Dev Containers: Reopen in Container"*.
-
+This step may take a minute as Docker builds the container for the first time.
