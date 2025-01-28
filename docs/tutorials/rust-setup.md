@@ -79,12 +79,12 @@ The ```devcontainer.json``` file defines the configurations for the development 
 !!! Helper
     Using the ```cargo new``` command will create a new repository automatically which is a helpful feature when starting new projects.  Lucky for us, Cargo also automatically builds the Hello World! program for us.  
   
-  Running ```cargo new <filename>``` prompts rust to create a directory of the same filename along with a ```main.rs``` inside a ```src``` directory. After creating your ```hello_world``` file, navigate to main and check out the code that was generated. The code inside should loosely resemble a Hello World! program from java or C.
+  Running ```cargo new <filename>``` prompts rust to create a directory of the same filename along with a ```main.rs``` inside a ```src``` directory. After creating your ```hello_world``` file, navigate to main and check out the code that was generated. The code inside should loosely resemble a Hello World! program from java or C.  We will want to edit the code slightly to make the program say "Hello COMP423" instead of "Hello World!". You should also edit the filename to reflect this change. 
 
   * Compiling and Running your program  
   To compile programs in Rust, you should first navigate inside the src file that was created, then run ```cargo build```.  
   ```
-  cd hello_world/src  
+  cd hello_comp423/src  
   cargo build  
   ```
 
