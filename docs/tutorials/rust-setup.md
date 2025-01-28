@@ -96,7 +96,7 @@ Now is the time to run our completed program. To run programs in Rust, we simply
 cargo run  
 ```
 
-!!! Compare
+!!! note "Compare"
     It is possible to skip the ```cargo build``` command entirely.  If you do not run the build command, ```cargo run``` will automatically compile and run your code.
 
 Congratulations! You have coded your first Rust program inside a Dev Container! All that's left is to ```exit``` your container, commit and push your changes to GitHub.  
